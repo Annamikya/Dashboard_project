@@ -16,6 +16,7 @@
   <!-- Project CSS -->
   {% load static %}
   <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/enhancements.css' %}" />
 
   {% block extra_css %}{% endblock %}
 </head>
@@ -146,5 +147,9 @@
   <script src="{% static 'js/main.js' %}"></script>
   {% block extra_js %}{% endblock %}
 
+  <!-- UX Enhancements JS -->
+  <script src="{% static 'js/ux-enhancements.js' %}"></script>
+
+  {% block extra_js %}{% endblock %}
 </body>
 </html>
